@@ -28,7 +28,6 @@ export class COMPONENTNAME extends React.PureComponent {
 /** *******************************/
 /* Static Properties
  * { Static getDerivedStateFromProps}
- * { Static defaultProps }
 /** *******************************/
 
 /**
@@ -44,11 +43,6 @@ static getDerivedStateFromProps(nextProps, PrevState) {
 
         // return initialState after it has being changed
         return initialState;
-    }
-    // Set default props here
-    static defaultProps() {
-        let defaultprops = {};
-        return defaultprops;
     }
 
 /** *******************************
