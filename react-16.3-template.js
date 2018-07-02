@@ -45,11 +45,6 @@ export class COMPONENTNAME extends React.PureComponent {
         // return initialState after it has been changed
         return initialState;
     }
-    // Set default props here
-    static defaultProps() {
-        let defaultprops = {};
-        return defaultprops;
-    }
 
     /** *******************************
      * Life Cycle methods - Displayed as they are called
