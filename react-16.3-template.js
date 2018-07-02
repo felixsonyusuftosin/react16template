@@ -74,7 +74,7 @@ static getDerivedStateFromProps(nextProps, PrevState) {
     }
 
 /**
- * @function componentDidlMount called just afgter a component is mounted
+ * @function componentDidlMount called just after a component is mounted
  */
     componentDidMount() {
                 // Access the current url state via React Router prop
