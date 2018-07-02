@@ -129,19 +129,10 @@ static getDerivedStateFromProps(nextProps, PrevState) {
         // Set the state to display error fallBack UI
         this.setState({hasError: true});
     } 
-/** *******************************
- * Pass props from children 
- * ********************************/
-/**
- * @function called from children
- * @param {obj} attr - attribute passed from child
- */
- fromChild = (attr) => { 
-    return null;
- };
 
 /**
- * @function render - Display only ReactDom components here
+ * @function render - Display  ReactDom components here
+ * NB ! Try to minimmize witing  non DOM  Logic here 
  */
     render() {
         // Define initial state variables here
